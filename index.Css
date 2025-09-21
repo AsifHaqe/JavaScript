@@ -1,0 +1,14 @@
+.spinner{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-top: 20px solid indigo;
+    background-color: orangered;
+    border: 25px solid white;
+    animation: ani 2.5 linear infinite;
+}
+@keyframes ani{
+    to{
+        transform: rotate(360deg);
+    }
+}
